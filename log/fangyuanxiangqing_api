@@ -1,0 +1,8 @@
+[2018-01-22 09:45:02][log.py][line:46][INFO] 
+JSON: {'AreaSize': '121', 'Dict_Name': '晋安区', 'PriceSingle': '37190', 'Floor': '低楼层/31层', 'Hou_Name': '世欧澜山', 'Layout': ['4', '2', '2', '2'], 'PlateName': '东二环（塔头路）,福新路,', 'Direction': '东南', 'PriceTotal': '450', 'HouseCode': 'H00494493', 'ReFinishdate': '2012', 'Per_Name': '苏玄黠'} 
+== 
+HTML:{'AreaSize': '121', 'Dict_Name': '晋安区', 'PriceSingle': '37190', 'Floor': '低楼层/31层', 'Hou_Name': '世欧澜山', 'Layout': ['4', '2', '2', '2'], 'PlateName': '东二环（塔头路）,福新路,', 'Direction': '东南', 'PriceTotal': '450', 'HouseCode': 'H00494493', 'ReFinishdate': '2012', 'Per_Name': '苏玄黠'}
+[2018-01-30 15:13:10][log.py][line:46][INFO] 
+JSON: {'PriceSingle': '37190', 'ReFinishdate': '2012', 'PlateName': '东二环（塔头路）,福新路,', 'PriceTotal': '450', 'Per_Name': '苏玄黠', 'AreaSize': '121', 'Hou_Name': '世欧澜山', 'Floor': '低楼层/31层', 'Layout': ['4', '2', '2', '2'], 'Direction': '东南', 'Dict_Name': '晋安区', 'HouseCode': 'H00494493'} 
+== 
+HTML:{'PriceSingle': '37190', 'ReFinishdate': '2012', 'PlateName': '东二环（塔头路）,福新路,', 'PriceTotal': '450', 'Per_Name': '苏玄黠', 'AreaSize': '121', 'Hou_Name': '世欧澜山', 'Floor': '低楼层/31层', 'Layout': ['4', '2', '2', '2'], 'Direction': '东南', 'Dict_Name': '晋安区', 'HouseCode': 'H00494493'}

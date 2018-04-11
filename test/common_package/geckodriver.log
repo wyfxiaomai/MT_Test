@@ -1,0 +1,56 @@
+1516688434156	geckodriver	INFO	Listening on 127.0.0.1:60308
+1516688436086	mozprofile::profile	INFO	Using profile path C:\Users\wyf\AppData\Local\Temp\rust_mozprofile.tcG06eK9uY6T
+1516688436096	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1516688436133	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60316
+1516688437632	Marionette	INFO	Listening on port 60316
+JavaScript warning: http://s.union.360.cn/1899.js, line 1: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+JavaScript error: , line 0: uncaught exception: [object Object]
+1516688536954	geckodriver	INFO	Listening on 127.0.0.1:60412
+1516688538966	mozprofile::profile	INFO	Using profile path C:\Users\wyf\AppData\Local\Temp\rust_mozprofile.zALsmC4KIDFu
+1516688538975	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1516688539007	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60419
+1516688540386	Marionette	INFO	Listening on port 60419
+JavaScript warning: http://s.union.360.cn/1899.js, line 1: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+JavaScript error: , line 0: uncaught exception: [object Object]
+JavaScript warning: http://s.union.360.cn/1899.js, line 1: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+JavaScript error: , line 0: uncaught exception: [object Object]
+JavaScript warning: resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/system/environment.js, line 15: Proxy.create and Proxy.createFunction are deprecated, use new Proxy instead
+Handler function threw an exception: TypeError: threadActor is null
+Stack: TabActor.prototype._windowReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/webbrowser.js:1734:1
+TabActor.prototype._changeTopLevelDocument/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/webbrowser.js:1671:7
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Line: 1734, column: 1
+console.error: 
+  Handler function threw an exception: TypeError: threadActor is null
+Stack: TabActor.prototype._windowReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/webbrowser.js:1734:1
+TabActor.prototype._changeTopLevelDocument/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/webbrowser.js:1671:7
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Line: 1734, column: 1
+1516688617163	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1516688674152	geckodriver	INFO	Listening on 127.0.0.1:60646
+1516688676187	mozprofile::profile	INFO	Using profile path C:\Users\wyf\AppData\Local\Temp\rust_mozprofile.2Cbu08F3Zrf1
+1516688676197	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1516688676233	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60652
+1516688677627	Marionette	INFO	Listening on port 60652
+JavaScript warning: http://s.union.360.cn/1899.js, line 1: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+JavaScript error: , line 0: uncaught exception: [object Object]
+JavaScript warning: http://s.union.360.cn/1899.js, line 1: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+JavaScript error: http://bj-test.imtfc.com/Scripts/jquery-1.8.3.js, line 21: uncaught exception: [object Object]
+1516688783040	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+INFO	Using profile path C:\Users\wyf\AppData\Local\Temp\rust_mozprofile.BxhaPKSBQpdQ
+1516688761578	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1516688761608	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60780
+1516688763212	Marionette	INFO	Listening on port 60780
+JavaScript warning: http://s.union.360.cn/1899.js, line 1: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+JavaScript error: , line 0: uncaught exception: [object Object]
+JavaScript warning: http://s.union.360.cn/1899.js, line 1: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+JavaScript error: http://bj-test.imtfc.com/Scripts/jquery-1.8.3.js, line 21: uncaught exception: [object Object]
+1516688859567	geckodriver	INFO	Listening on 127.0.0.1:60901
+1516688861422	mozprofile::profile	INFO	Using profile path C:\Users\wyf\AppData\Local\Temp\rust_mozprofile.hMLdjqhgYXtz
+1516688861429	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1516688861460	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60907
+1516688862959	Marionette	INFO	Listening on port 60907
+JavaScript warning: http://s.union.360.cn/1899.js, line 1: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+JavaScript error: , line 0: uncaught exception: [object Object]
+JavaScript warning: http://s.union.360.cn/1899.js, line 1: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+JavaScript error: , line 0: uncaught exception: [object Object]

@@ -1,5 +1,5 @@
 import os
-s
+
 file = "login_testcase.py"
 testpath = os.getcwd()
 projectName = r'Web_MaiTianOnLineAutoTest'

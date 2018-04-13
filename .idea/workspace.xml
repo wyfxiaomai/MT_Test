@@ -18,8 +18,8 @@
       <file leaf-file-name="RunCase_Single.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/RunCase/RunCase_Single.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-150">
-              <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+            <state relative-caret-position="250">
+              <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -581,7 +581,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523589401574</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="修改添加获取系统路径问题">
+      <created>1523591071653</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1523591071653</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -615,7 +622,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改start.bat文件" />
     <MESSAGE value="修改路径问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改路径问题" />
+    <MESSAGE value="修改添加获取系统路径问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改添加获取系统路径问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -896,8 +904,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/RunCase/RunCase_Single.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        <state relative-caret-position="250">
+          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="3" />
           <folding />
         </state>
       </provider>

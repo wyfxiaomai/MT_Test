@@ -2,7 +2,7 @@
 
 import unittest,time,os,sys
 #rootpath=str('/Web_MaiTianOnLineAutoTest/')
-rootpath=str('/MT_Auto/')
+rootpath=str('/MT_Auto_get_new_script/')
 syspath=sys.path
 sys.path=[]
 sys.path.append(rootpath)#将工程根目录加入到python搜索路径中

@@ -24,7 +24,7 @@ if __name__=="__main__":
     filename = File_Path + now + " MT_Test_result.html"
     fp = open(filename,'wb')
     runner = HTMLTestRunner(stream=fp,title="MT_OnLine_Test",description="win7,Chrome")
-    test_dir = '/MT_Auto/test'
+    test_dir = '/MT_Auto_get_new_script/test'
    # print('test_dir ****** ',test_dir)
     now_path = os.getcwd()
    # print(1,now_path[:])

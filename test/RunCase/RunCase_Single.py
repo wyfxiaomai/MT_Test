@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 import unittest,time,os,sys
-#rootpath=str('/Web_MaiTianOnLineAutoTest/')
+rootpath=str('/Web_MaiTianOnLineAutoTest/')
 rootpath=str('/MT_Auto/')
 syspath=sys.path
 sys.path=[]

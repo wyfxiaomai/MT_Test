@@ -2,7 +2,7 @@
 
 import unittest,time,os,sys
 #rootpath=str('/Web_MaiTianOnLineAutoTest/')
-rootpath=str('/MT_Auto_get_new_script/')
+rootpath = os.path.dirname(os.path.dirname(__file__))
 syspath=sys.path
 sys.path=[]
 sys.path.append(rootpath)#将工程根目录加入到python搜索路径中
@@ -35,7 +35,7 @@ if __name__=="__main__":
     #pattern =  '*_testcase.py'
     #discover = unittest.defaultTestLoader.discover(test_dir,pattern="bj_secondhouse_testcase.py")
     #print('sys.path', sys.path[7])
-    discover = unittest.defaultTestLoader.discover(test_dir, pattern=pattern)
+    discover = unittest.defaultTestLoader.discover(rootpath, pattern=pattern)
     runner.run(discover)
     fp.close()
     new_report(File_Path)

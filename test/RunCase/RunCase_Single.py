@@ -1,15 +1,14 @@
 #!/usr/bin/python
-
+# -*- encoding:UTF-8 -*-
 import unittest,time,os,sys
 #rootpath=str('/Web_MaiTianOnLineAutoTest/')
 rootpath = os.path.dirname(os.path.dirname(__file__))
 syspath=sys.path
 sys.path=[]
 sys.path.append(rootpath)#将工程根目录加入到python搜索路径中
-sys.path.extend([rootpath+i for i in os.listdir(rootpath) if i[0]!="."])#将工程目录下的一级目录添加到python搜索路径中
+sys.path.extend([rootpath+'\\'+i for i in os.listdir(rootpath) if i[0]!="."])#将工程目录下的一级目录添加到python搜索路径中
 sys.path.extend(syspath)
-sys.path.append(r'/MT_Auto_get_new_script/')
-print('sys.path',sys.path[7])
+print('sys.path',sys.path)
 from HTMLTestRunner import HTMLTestRunner
 from test.common_package.send_email import new_report
 

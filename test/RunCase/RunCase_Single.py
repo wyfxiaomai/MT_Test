@@ -19,22 +19,22 @@ if __name__=="__main__":
     if not os.path.exists(File_Path):
         os.makedirs(File_Path)
     now = time.strftime("%Y-%m-%d %H-%M-%S")
-    print('File_Path',File_Path)
+  #  print('File_Path',File_Path)
     #filename = "G:\\test_result\\result\\" + now + "MT_Test_result.html"
     filename = File_Path + now + " MT_Test_result.html"
     fp = open(filename,'wb')
     runner = HTMLTestRunner(stream=fp,title="MT_OnLine_Test",description="win7,Chrome")
     test_dir = '/MT_Auto/test'
-    print('test_dir ****** ',test_dir)
+   # print('test_dir ****** ',test_dir)
     now_path = os.getcwd()
-    print(1,now_path[:])
+   # print(1,now_path[:])
     pattern = "login_testcase.py"
     Tpath = os.path.dirname(os.path.dirname(os.path.abspath(pattern)))
-    print(2,Tpath)
+    #print(2,Tpath)
 
     #pattern =  '*_testcase.py'
     #discover = unittest.defaultTestLoader.discover(test_dir,pattern="bj_secondhouse_testcase.py")
-    print('sys.path', sys.path[7])
+    #print('sys.path', sys.path[7])
     discover = unittest.defaultTestLoader.discover(test_dir, pattern=pattern)
     runner.run(discover)
     fp.close()

@@ -34,7 +34,7 @@ if __name__=="__main__":
     #pattern =  '*_testcase.py'
     #discover = unittest.defaultTestLoader.discover(test_dir,pattern="bj_secondhouse_testcase.py")
     print('sys.path', sys.path[7])
-    discover = unittest.defaultTestLoader.discover(sys.path[7], pattern=pattern)
+    discover = unittest.defaultTestLoader.discover(test_dir, pattern=pattern)
     runner.run(discover)
     fp.close()
     new_report(File_Path)

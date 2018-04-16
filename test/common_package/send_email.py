@@ -9,7 +9,7 @@ import os
 def send_mail(file_new):
     f = open(file_new,'rb')
     mail_body = f.read()
-    print(mail_body)
+    #print(mail_body)
     f.close()
     msg =  MIMEText(mail_body,'html','utf-8')
     msg['Subject'] = Header('麦田在线自动化测试报告','utf-8')

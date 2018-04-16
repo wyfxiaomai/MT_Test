@@ -1,11 +1,9 @@
+#!/usr/bin/python
 # -*- coding:UTF-8 -*-
 
-from HTMLTestRunner import HTMLTestRunner
 from email.mime.text import MIMEText
 from email.header import Header
 import smtplib
-import unittest
-import time
 import os
 
 def send_mail(file_new):

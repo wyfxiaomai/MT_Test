@@ -20,7 +20,6 @@ if __name__=="__main__":
     if not os.path.exists(File_Path):
         os.makedirs(File_Path)
     now = time.strftime("%Y-%m-%d %H-%M-%S")
-  #  print('File_Path',File_Path)
     #filename = "G:\\test_result\\result\\" + now + "MT_Test_result.html"
     filename = File_Path + now + " MT_Test_result.html"
     fp = open(filename,'wb')
@@ -33,7 +32,6 @@ if __name__=="__main__":
     #pattern =  '*_testcase.py'
     #discover = unittest.defaultTestLoader.discover(test_dir,pattern="bj_secondhouse_testcase.py")
     discover = unittest.defaultTestLoader.discover(rootpath, pattern=pattern)
-    #discover = unittest.defaultTestLoader.discover(os.system(pattern))
     runner.run(discover)
     fp.close()
     new_report(File_Path)

@@ -33,7 +33,7 @@ def new_report(testreport):
     lists = os.listdir(testreport)
     lists.sort(key=lambda fn:os.path.getmtime(testreport + "/" + fn))
     file_new = os.path.normpath(os.path.join(testreport,lists[-1]))
-    print(file_new)
+    #print(file_new)
     send_mail(file_new)
     #return file_new
 

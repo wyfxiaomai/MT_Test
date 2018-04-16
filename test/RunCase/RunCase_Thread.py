@@ -5,7 +5,14 @@ import HTMLTestRunner
 import threading
 import sys
 #sys.path.append('G:/Web_MaiTianOnLineAutoTest/test')#使用编辑器，要指定当前目录，不然无法执行第20行代码
-sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(__file__)))+'/test')
+
+rootpath = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))[2:]
+syspath=sys.path
+sys.path=[]
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))+'/test')
+sys.path.append(rootpath)#将工程根目录加入到python搜索路径中
+sys.path.extend([rootpath+'\\'+i for i in os.listdir(rootpath) if i[0]!="."])#将工程目录下的一级目录添加到python搜索路径中
+sys.path.extend(syspath)
 
 def creatsuite():
     casedir = []

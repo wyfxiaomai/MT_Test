@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="26165505-2a85-4fb8-aa61-b4da8887ccb3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/RunCase/start.bat" afterPath="$PROJECT_DIR$/test/RunCase/start.bat" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +15,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RunCase_Single.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RunCase_Single.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/RunCase/RunCase_Single.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="130">
               <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="start.bat" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/RunCase/start.bat">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -146,7 +157,6 @@
         <option value="$PROJECT_DIR$/test/denglu_TestCase/login_FJ.py" />
         <option value="$PROJECT_DIR$/test/RunCase/login_FJ.py" />
         <option value="$PROJECT_DIR$/test/RunCase/Run.py" />
-        <option value="$PROJECT_DIR$/test/RunCase/start.bat" />
         <option value="$PROJECT_DIR$/test/common_package/send_email.py" />
         <option value="$PROJECT_DIR$/test/common_package/bj_fz_xm_for_bianli.py" />
         <option value="$PROJECT_DIR$/test/beijing_TestCase/bj_ershoufang_paixu_testcase.py" />
@@ -185,6 +195,7 @@
         <option value="$PROJECT_DIR$/test/xiamen_TestCase/xm_fangchanguwen_testcase.py" />
         <option value="$PROJECT_DIR$/test/xiamen_TestCase/xm_xiaoqu_testcase.py" />
         <option value="$PROJECT_DIR$/test/RunCase/RunCase_Single.py" />
+        <option value="$PROJECT_DIR$/test/RunCase/start.bat" />
       </list>
     </option>
   </component>
@@ -747,7 +758,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526532872020</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="修改执行启动文件">
+      <created>1526532910840</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1526532910840</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -914,14 +932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/RunCase/start.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -1206,6 +1216,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/RunCase/start.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
           <folding />
         </state>
       </provider>

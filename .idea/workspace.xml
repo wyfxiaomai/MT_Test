@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26165505-2a85-4fb8-aa61-b4da8887ccb3" name="Default" comment="">
+    <list default="true" id="26165505-2a85-4fb8-aa61-b4da8887ccb3" name="Default" comment="使用线程执行测试用例">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/RunCase/start.bat" afterPath="$PROJECT_DIR$/test/RunCase/start.bat" />
     </list>
@@ -60,8 +60,8 @@
       <file leaf-file-name="start.bat" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/RunCase/start.bat">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -792,7 +792,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526549447461</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="使用线程执行测试用例">
+      <created>1526550205320</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1526550205320</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1260,8 +1267,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/RunCase/start.bat">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>

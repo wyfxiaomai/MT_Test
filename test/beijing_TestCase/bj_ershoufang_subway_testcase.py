@@ -23,7 +23,7 @@ BJ_ErShouFang_SubWay_LouCeng = Data.BJ_ErShouFang_SubWay_LouCeng
 
 
 class Bj_ErShouFang_SubWay(myunit.MyTest):
-    def test_1(self):
+    def __test(self,for_1_flag, for_2_flag, for_3_flag, for_4_flag, for_5_flag,for_6_flag, for_7_flag, for_8_flag, for_9_flag, for_10_flag):
         linkindex = []
         for i, line in enumerate(BJ_ErShouFang_SubWayLine):
             linkindex.append(i)
@@ -47,7 +47,43 @@ class Bj_ErShouFang_SubWay(myunit.MyTest):
             for_6_indexmin=0, for_6_indexmax=len(BJ_ErShouFang_SubWay_ChaoXiang),
             for_8_indexmin=0, for_8_indexmax=len(BJ_ErShouFang_SubWay_MaiDian),
             for_9_indexmin=0, for_9_indexmax=len(BJ_ErShouFang_SubWay_LouCeng),
-            for_1_flag=True, for_2_flag=True, for_3_flag=True, for_4_flag=True, for_5_flag=True,
-            for_6_flag=True, for_7_flag=False, for_8_flag=True, for_9_flag=True, for_10_flag=False,
+            for_1_flag=for_1_flag, for_2_flag=for_2_flag, for_3_flag=for_3_flag,
+            for_4_flag=for_4_flag, for_5_flag=for_5_flag,for_6_flag=for_6_flag,
+            for_7_flag=for_7_flag, for_8_flag=for_8_flag, for_9_flag=for_9_flag,
+            for_10_flag=for_10_flag,
             for_3_buxian='S0', for_4_buxian='A0', for_5_buxian='H0',
             for_6_buxian='O0', for_8_buxian='T0')
+
+    def test_1(self):
+        '''遍历每一个查询条件，校验房源详情'''
+        self.__test(
+            for_1_flag=True, for_2_flag=True, for_3_flag=True, for_4_flag=True, for_5_flag=True,
+            for_6_flag=True, for_7_flag=False, for_8_flag=True, for_9_flag=True, for_10_flag=False
+        )
+
+    def test_2(self):
+        '''只遍历区域'''
+        self.__test(
+            for_1_flag=True,for_2_flag=False,for_3_flag=False,for_4_flag=False,for_5_flag=False,
+            for_6_flag=False,for_7_flag=False,for_8_flag=False,for_9_flag=False,for_10_flag=False
+        )
+
+    def test_3(self):
+        '''只遍历面积'''
+        self.__test(
+            for_1_flag=False,for_2_flag=False,for_3_flag=True,for_4_flag=True,for_5_flag=False,
+            for_6_flag=False,for_7_flag=False,for_8_flag=False,for_9_flag=False,for_10_flag=False
+        )
+
+
+
+if __name__=="__main__":
+    from selenium import webdriver
+    import data.urldata as URL
+
+    driver = webdriver.Chrome()
+    url = URL.maitian_online_url
+    driver.get(url)
+    # driver.get('http://bj-test.imtfc.com/esfway/B1D1/T3L1')
+    driver.implicitly_wait(2)
+    driver.maximize_window()

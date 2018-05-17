@@ -11,7 +11,7 @@ XM_FangChanGuWen_ShangQuan_index = Data.XM_FangChanGuWen_ShangQuan_index
 
 
 class Xm_FangChanGuWen(myunit.MyTest):
-    def test_1(self):
+    def __test(self, for_1_flag, for_2_flag, for_3_flag, for_4_flag, for_5_flag, for_6_flag, for_7_flag, for_8_flag,for_9_flag, for_10_flag):
         linkindex = []
         for i, line in enumerate(XM_FangChanGuWen_QuYu):
             linkindex.append(i)
@@ -23,5 +23,14 @@ class Xm_FangChanGuWen(myunit.MyTest):
             for_1_list=XM_FangChanGuWen_QuYu,for_2_list=XM_FangChanGuWen_ShangQuan,
             for_1_indexmin=0,for_1_indexmax=len(XM_FangChanGuWen_QuYu),
             for_2_indexmin=0,for_2_indexmax=len(XM_FangChanGuWen_ShangQuan),
-            for_1_flag=True,for_2_flag=True,for_3_flag=False,for_4_flag=False,for_5_flag=False,
-            for_6_flag=False,for_7_flag=False,for_8_flag=False,for_9_flag=False,for_10_flag=False)
+            for_1_flag=for_1_flag, for_2_flag=for_2_flag, for_3_flag=for_3_flag,
+            for_4_flag=for_4_flag, for_5_flag=for_5_flag, for_6_flag=for_6_flag,
+            for_7_flag=for_7_flag, for_8_flag=for_8_flag, for_9_flag=for_9_flag,
+            for_10_flag=for_10_flag)
+
+    def test_1(self):
+        '''遍历每一个查询条件，校验房源详情'''
+        self.__test(
+            for_1_flag=True, for_2_flag=True, for_3_flag=False, for_4_flag=False, for_5_flag=False,
+            for_6_flag=False, for_7_flag=False, for_8_flag=False, for_9_flag=False, for_10_flag=False
+        )

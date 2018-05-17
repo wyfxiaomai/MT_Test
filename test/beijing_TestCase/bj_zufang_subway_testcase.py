@@ -27,7 +27,7 @@ BJ_ZuFang_SubWay_FangShi = Data.BJ_ZuFang_SubWay_FangShi
 
 
 class Bj_ZuFang_SubWay(myunit.MyTest):
-    def test_1(self):
+    def __test(self, for_1_flag, for_2_flag, for_3_flag, for_4_flag, for_5_flag, for_6_flag, for_7_flag, for_8_flag,for_9_flag, for_10_flag):
         linkindex = []
         for i, line in enumerate(BJ_ZuFang_SubWayLine):
             linkindex.append(i)
@@ -52,7 +52,16 @@ class Bj_ZuFang_SubWay(myunit.MyTest):
             for_8_indexmin=0, for_8_indexmax=len(BJ_ZuFang_SubWay_PeiZhi),
             for_9_indexmin=0, for_9_indexmax=len(BJ_ZuFang_SubWay_ZhuangXiu),
             for_10_indexmin=0, for_10_indexmax=len(BJ_ZuFang_SubWay_FangShi),
-            for_1_flag=True,for_2_flag=True,for_3_flag=True,for_4_flag=True,for_5_flag=True,
-            for_6_flag=True,for_7_flag=True,for_8_flag=True,for_9_flag=True,for_10_flag=True,
+            for_1_flag=for_1_flag, for_2_flag=for_2_flag, for_3_flag=for_3_flag,
+            for_4_flag=for_4_flag, for_5_flag=for_5_flag, for_6_flag=for_6_flag,
+            for_7_flag=for_7_flag, for_8_flag=for_8_flag, for_9_flag=for_9_flag,
+            for_10_flag=for_10_flag,
             for_3_buxian='S0',for_4_buxian='A0',for_5_buxian='H0',
             for_6_buxian='O0',for_7_buxian='T0',for_8_buxian='P0')
+
+    def test_1(self):
+        '''遍历每一个查询条件，校验房源详情'''
+        self.__test(
+            for_1_flag=True, for_2_flag=True, for_3_flag=True, for_4_flag=True, for_5_flag=True,
+            for_6_flag=True, for_7_flag=True, for_8_flag=True, for_9_flag=True, for_10_flag=True
+        )

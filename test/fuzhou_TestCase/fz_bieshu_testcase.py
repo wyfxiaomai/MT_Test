@@ -24,7 +24,7 @@ FZ_BieShu_MaiDian = Data.FZ_BieShu_MaiDian
 FZ_BieShu_LouLing = Data.FZ_BieShu_LouLing
 
 class Fz_BieShu(myunit.MyTest):
-    def test_1(self):
+    def __test(self,for_1_flag, for_2_flag, for_3_flag, for_4_flag, for_5_flag, for_6_flag, for_7_flag, for_8_flag,for_9_flag, for_10_flag):
         linkindex = []
         for i, line in enumerate(FZ_BieShu_QuYu):
             linkindex.append(i)
@@ -49,7 +49,16 @@ class Fz_BieShu(myunit.MyTest):
             for_7_indexmin=0, for_7_indexmax=len(FZ_BieShu_ZhuangXiu),
             for_8_indexmin=0, for_8_indexmax=len(FZ_BieShu_MaiDian),
             for_10_indexmin=0, for_10_indexmax=len(FZ_BieShu_LouLing),
-            for_1_flag=False, for_2_flag=False, for_3_flag=True, for_4_flag=True, for_5_flag=False,
-            for_6_flag=False, for_7_flag=False, for_8_flag=False, for_9_flag=False, for_10_flag=True,
+            for_1_flag=for_1_flag, for_2_flag=for_2_flag, for_3_flag=for_3_flag,
+            for_4_flag=for_4_flag, for_5_flag=for_5_flag, for_6_flag=for_6_flag,
+            for_7_flag=for_7_flag, for_8_flag=for_8_flag, for_9_flag=for_9_flag,
+            for_10_flag=for_10_flag,
             for_3_buxian='S0', for_4_buxian='A0', for_5_buxian='BS0',
             for_6_buxian='DT2', for_7_buxian='ZX0', for_8_buxian='T0')
+
+    def test_1(self):
+        '''遍历每一个查询条件，校验房源详情'''
+        self.__test(
+            for_1_flag=True, for_2_flag=True, for_3_flag=True, for_4_flag=True, for_5_flag=True,
+            for_6_flag=True, for_7_flag=True, for_8_flag=True, for_9_flag=False, for_10_flag=True
+        )

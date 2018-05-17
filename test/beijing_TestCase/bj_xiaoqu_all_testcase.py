@@ -14,7 +14,7 @@ BJ_XiaoQu_JunJia = Data.BJ_XiaoQu_JunJia
 BJ_XiaoQu_LouLing = Data.BJ_XiaoQu_LouLing
 
 class Bj_XiaoQu(myunit.MyTest):
-    def test_1(self):
+    def __test(self,for_1_flag, for_2_flag, for_3_flag, for_4_flag, for_5_flag,for_6_flag, for_7_flag, for_8_flag, for_9_flag, for_10_flag):
         linkindex = []
         for i, line in enumerate(BJ_XiaoQu_QuYu):
             linkindex.append(i)
@@ -27,6 +27,15 @@ class Bj_XiaoQu(myunit.MyTest):
             for_3_list=BJ_XiaoQu_JunJia, for_4_list=BJ_XiaoQu_LouLing,
             for_3_indexmin=0, for_3_indexmax=len(BJ_XiaoQu_JunJia),
             for_4_indexmin=0, for_4_indexmax=len(BJ_XiaoQu_LouLing),
-            for_1_flag=True, for_2_flag=True, for_3_flag=True, for_4_flag=True, for_5_flag=False,
-            for_6_flag=False, for_7_flag=False, for_8_flag=False, for_9_flag=False, for_10_flag=False,
+            for_1_flag=for_1_flag, for_2_flag=for_2_flag, for_3_flag=for_3_flag,
+            for_4_flag=for_4_flag, for_5_flag=for_5_flag, for_6_flag=for_6_flag,
+            for_7_flag=for_7_flag, for_8_flag=for_8_flag, for_9_flag=for_9_flag,
+            for_10_flag=for_10_flag,
             for_3_buxian='S0', for_4_buxian='Y0')
+
+    def test_1(self):
+        '''遍历每一个查询条件，校验房源详情'''
+        self.__test(
+            for_1_flag=True, for_2_flag=True, for_3_flag=True, for_4_flag=True, for_5_flag=False,
+            for_6_flag=False, for_7_flag=False, for_8_flag=False, for_9_flag=False, for_10_flag=False
+        )

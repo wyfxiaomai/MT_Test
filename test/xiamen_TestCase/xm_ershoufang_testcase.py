@@ -26,7 +26,7 @@ XM_ErShouFang_LouCeng = Data.XM_ErShouFang_LouCeng
 XM_ErShouFang_LouLing = Data.XM_ErShouFang_LouLing
 
 class Xm_ErShouFang(myunit.MyTest):
-    def test_1(self):
+    def __test(self, for_1_flag, for_2_flag, for_3_flag, for_4_flag, for_5_flag, for_6_flag, for_7_flag, for_8_flag,for_9_flag, for_10_flag):
         linkindex = []
         for i, line in enumerate(XM_ErShouFang_QuYu):
             linkindex.append(i)
@@ -53,7 +53,17 @@ class Xm_ErShouFang(myunit.MyTest):
             for_8_indexmin=0,for_8_indexmax=len(XM_ErShouFang_MaiDian),
             for_9_indexmin=0, for_9_indexmax=len(XM_ErShouFang_LouCeng),
             for_10_indexmin=0,for_10_indexmax=len(XM_ErShouFang_LouLing),
-            for_1_flag=True,for_2_flag=True,for_3_flag=True,for_4_flag=True,for_5_flag=True,
-            for_6_flag=False,for_7_flag=False,for_8_flag=False,for_9_flag=False,for_10_flag=False,
+            for_1_flag=for_1_flag, for_2_flag=for_2_flag, for_3_flag=for_3_flag,
+            for_4_flag=for_4_flag, for_5_flag=for_5_flag, for_6_flag=for_6_flag,
+            for_7_flag=for_7_flag, for_8_flag=for_8_flag, for_9_flag=for_9_flag,
+            for_10_flag=for_10_flag,
             for_3_buxian='S0',for_4_buxian='A0',for_5_buxian='H0',
             for_6_buxian='DT2',for_7_buxian='ZX0',for_8_buxian='T0')
+
+    def test_1(self):
+        '''遍历每一个查询条件，校验房源详情'''
+        self.__test(
+            for_1_flag=True, for_2_flag=True, for_3_flag=True, for_4_flag=True, for_5_flag=True,
+            for_6_flag=True, for_7_flag=True, for_8_flag=True, for_9_flag=True, for_10_flag=True
+        )
+

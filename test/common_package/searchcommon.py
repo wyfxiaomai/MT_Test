@@ -452,7 +452,7 @@ class SearchCommon(Page):
                         print(fanyuanshuju)
                         try:
                             assert num_min <= float(fanyuanshuju) <= num_max
-                            print('%s 内容在 %s - %s 搜索范围内' % (fanyuanshuju, num_min, num_max))
+                            #print('%s 内容在 %s - %s 搜索范围内' % (fanyuanshuju, num_min, num_max))
                         except BaseException as e:
                             print('%s 内容不在 %s - %s 搜索范围内' % (fanyuanshuju, num_min, num_max))
         else:

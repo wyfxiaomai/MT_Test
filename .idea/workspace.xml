@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26165505-2a85-4fb8-aa61-b4da8887ccb3" name="Default" comment="删除部分屏蔽内容">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/beijing_TestCase/bj_ershoufang_paixu_testcase.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fuzhou_TestCase/fz_ershoufang_paixu_testcase.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/xiamen_TestCase/xm_ershoufang_paixu_testcase.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/RunCase/RunCase_Single.py" afterPath="$PROJECT_DIR$/test/RunCase/RunCase_Single.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/RunCase/start.bat" afterPath="$PROJECT_DIR$/test/RunCase/start.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/beijing_TestCase/bj_ershoufang_all_testcase.py" afterPath="$PROJECT_DIR$/test/beijing_TestCase/bj_ershoufang_all_testcase.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/beijing_TestCase/bj_ershoufang_subway_testcase.py" afterPath="$PROJECT_DIR$/test/beijing_TestCase/bj_ershoufang_subway_testcase.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/beijing_TestCase/bj_fangchanguwen_testcase.py" afterPath="$PROJECT_DIR$/test/beijing_TestCase/bj_fangchanguwen_testcase.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/beijing_TestCase/bj_xiaoqu_all_testcase.py" afterPath="$PROJECT_DIR$/test/beijing_TestCase/bj_xiaoqu_all_testcase.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/beijing_TestCase/bj_xiaoqu_subway_testcase.py" afterPath="$PROJECT_DIR$/test/beijing_TestCase/bj_xiaoqu_subway_testcase.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/beijing_TestCase/bj_zufang_all_testcase.py" afterPath="$PROJECT_DIR$/test/beijing_TestCase/bj_zufang_all_testcase.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/beijing_TestCase/bj_zufang_subway_testcase.py" afterPath="$PROJECT_DIR$/test/beijing_TestCase/bj_zufang_subway_testcase.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/common_package/bj_fz_xm_for_bianli.py" afterPath="$PROJECT_DIR$/test/common_package/bj_fz_xm_for_bianli.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/common_package/driver.py" afterPath="$PROJECT_DIR$/test/common_package/driver.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/common_package/searchcommon.py" afterPath="$PROJECT_DIR$/test/common_package/searchcommon.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fuzhou_TestCase/fz_bieshu_testcase.py" afterPath="$PROJECT_DIR$/test/fuzhou_TestCase/fz_bieshu_testcase.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fuzhou_TestCase/fz_ershoufang_testcase.py" afterPath="$PROJECT_DIR$/test/fuzhou_TestCase/fz_ershoufang_testcase.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fuzhou_TestCase/fz_fangchanguwen_testcase.py" afterPath="$PROJECT_DIR$/test/fuzhou_TestCase/fz_fangchanguwen_testcase.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fuzhou_TestCase/fz_xiaoqu_testcase.py" afterPath="$PROJECT_DIR$/test/fuzhou_TestCase/fz_xiaoqu_testcase.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/xiamen_TestCase/xm_bieshu_testcase.py" afterPath="$PROJECT_DIR$/test/xiamen_TestCase/xm_bieshu_testcase.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/xiamen_TestCase/xm_ershoufang_testcase.py" afterPath="$PROJECT_DIR$/test/xiamen_TestCase/xm_ershoufang_testcase.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/xiamen_TestCase/xm_fangchanguwen_testcase.py" afterPath="$PROJECT_DIR$/test/xiamen_TestCase/xm_fangchanguwen_testcase.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/xiamen_TestCase/xm_xiaoqu_testcase.py" afterPath="$PROJECT_DIR$/test/xiamen_TestCase/xm_xiaoqu_testcase.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/test/RunCase/RunCase_Single.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+              <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -83,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/test/common_package/other_page_login.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <element signature="e#18#48#0" expanded="true" />
               </folding>
@@ -262,6 +239,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Web_MaiTianOnLineAutoTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web_MaiTianOnLineAutoTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web_MaiTianOnLineAutoTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web_MaiTianOnLineAutoTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web_MaiTianOnLineAutoTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RunCase" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -717,7 +726,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523869474676</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="删除部分屏蔽内容">
+      <created>1526532015958</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1526532015958</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1163,7 +1179,7 @@
     <entry file="file://$PROJECT_DIR$/test/common_package/other_page_login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="e#18#48#0" expanded="true" />
           </folding>
@@ -1173,7 +1189,7 @@
     <entry file="file://$PROJECT_DIR$/test/RunCase/RunCase_Single.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+          <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
           <folding />
         </state>
       </provider>

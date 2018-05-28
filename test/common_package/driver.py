@@ -37,7 +37,8 @@ def browser():
 
 """
 def browser():
-    driver = webdriver.Chrome()
+    #driver = webdriver.Chrome()
+    driver = webdriver.PhantomJS()
     return driver
 
 

@@ -6,6 +6,8 @@
       <sourceFolder url="file://$MODULE_DIR$/LoginScrapy" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ZhuFuYu" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/report" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Web_Service" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/APP_MaiTianOnLineAutoTest" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

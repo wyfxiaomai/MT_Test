@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="26165505-2a85-4fb8-aa61-b4da8887ccb3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/RunCase/RunCase_Single.py" afterPath="$PROJECT_DIR$/test/RunCase/RunCase_Single.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/common_package/driver.py" afterPath="$PROJECT_DIR$/test/common_package/driver.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,20 +27,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="driver.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="driver.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/common_package/driver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+            <state relative-caret-position="175">
+              <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RunCase_Single.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RunCase_Single.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/RunCase/RunCase_Single.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
+            <state relative-caret-position="800">
               <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
               <folding />
             </state>
@@ -174,8 +173,8 @@
         <option value="$PROJECT_DIR$/test/RunCase/start.bat" />
         <option value="$PROJECT_DIR$/APP_MaiTianOnLineAutoTest/PingMu_HuaDong.py" />
         <option value="$PROJECT_DIR$/APP_MaiTianOnLineAutoTest/APPium_study.py" />
-        <option value="$PROJECT_DIR$/test/common_package/driver.py" />
         <option value="$PROJECT_DIR$/test/RunCase/RunCase_Single.py" />
+        <option value="$PROJECT_DIR$/test/common_package/driver.py" />
       </list>
     </option>
   </component>
@@ -861,7 +860,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527556319868</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="线程执行测试用例">
+      <created>1527557217534</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1527557217534</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1260,18 +1266,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/common_package/driver.py">
+    <entry file="file://$PROJECT_DIR$/test/RunCase/RunCase_Single.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        <state relative-caret-position="800">
+          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/RunCase/RunCase_Single.py">
+    <entry file="file://$PROJECT_DIR$/test/common_package/driver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        <state relative-caret-position="175">
+          <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding />
         </state>
       </provider>

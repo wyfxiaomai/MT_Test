@@ -26,8 +26,8 @@ if __name__=="__main__":
     runner = HTMLTestRunner(stream=fp,title="MT_OnLine_Test",description="win7,Chrome")
     #test_dir = '/MT_Auto_get_new_script/test'
     test_dir = '/Web_MaiTianOnLineAutoTest/test'
-    #pattern = "login_testcase.py"
-    pattern =  '*_testcase.py'
+    pattern = "login_testcase.py"
+    #pattern =  '*_testcase.py'
     #discover = unittest.defaultTestLoader.discover(test_dir,pattern="bj_ershoufang_all_testcase.py")
     discover = unittest.defaultTestLoader.discover(rootpath, pattern='*_testcase.py')
     runner.run(discover)

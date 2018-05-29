@@ -29,7 +29,7 @@ if __name__=="__main__":
     pattern = "login_testcase.py"
     #pattern =  '*_testcase.py'
     #discover = unittest.defaultTestLoader.discover(test_dir,pattern="bj_ershoufang_all_testcase.py")
-    discover = unittest.defaultTestLoader.discover(rootpath, pattern='*_testcase.py')
+    discover = unittest.defaultTestLoader.discover(rootpath, pattern=pattern)
     runner.run(discover)
     fp.close()
     new_report(File_Path)

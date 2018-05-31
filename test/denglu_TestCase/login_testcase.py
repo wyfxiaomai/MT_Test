@@ -3,6 +3,7 @@
 import random
 import unittest,os
 from time import sleep
+from log.WriteLog import Logger
 
 from test.common_package import myunit
 from test.denglu_TestCase.loginPage import login
@@ -11,6 +12,7 @@ from test.denglu_TestCase.loginPage import login
 class loginTest(myunit.MyTest):
     def user_login_verify(self,username='',password=''):
         login(self.driver).user_login(username,password)
+        Logger.getlog().info('用户名：%s   密码：%s' % (username,password))
 
     def test_login(self):
         ''' 用户名和密码正确'''
